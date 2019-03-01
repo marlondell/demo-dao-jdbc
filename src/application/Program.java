@@ -1,12 +1,12 @@
 package application;
 
-import model.entities.Departments;
+import model.entities.Department;
 
 public class Program {
 
 	public static void main(String[] args) {
 		
-		Departments obj = new Departments(1, "Books");
+		Department obj = new Department(1, "Books");
 		System.out.println(obj);
 
 	}
